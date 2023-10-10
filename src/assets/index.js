@@ -26,9 +26,9 @@ import quanta from "./company/quanta2.png";
 import ateneo from "./company/ateneo4.png";
 import ateneo2 from "./company/ateneo4.png";
 
-import carrent from "./carrent.png";
+import carrent from "./old.png";
 import jobit from "./carrent2.png";
-import tripguide from "./tripguide.png";
+import tripguide from "./old.png";
 
 export {
   logo,

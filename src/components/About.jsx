@@ -47,8 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm Héctor Castillo and I’m a fan of Programming Languages. Active person recently graduated from a professional career, looking for opportunity, interested and 
-        obsessed in the world of programming.
+        I'm Héctor and I’m a fan of Programming Languages, database and software develop. Active person from a professional career, looking for opportunity, interested and eager to learn. Check my LinkedIn for more information or Website and my Github at the top to see what I'm able to do. Thank you.
       </motion.p>
 
 
