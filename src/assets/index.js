@@ -28,7 +28,7 @@ import ateneo2 from "./company/ateneo4.png";
 
 import carrent from "./old.png";
 import jobit from "./carrent2.png";
-import tripguide from "./old.png";
+import tripguide from "./spec.png";
 
 export {
   logo,

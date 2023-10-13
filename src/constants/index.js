@@ -120,7 +120,7 @@ const experiences = [
     company_name: "Liceo Ateneo Victoria",
     icon: ateneo,
     iconBg: "#383E56",
-    date: "2020 - 2021 (6 mounths)",
+    date: "2020 - 2021",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "My university internship was an application in Android Studio (JAVA) of applications in conjunction with Java/XML programming connect with Firebase (database no relational). and C++ (Arduino).",
@@ -132,11 +132,12 @@ const experiences = [
     company_name: "Liceo Ateneo Victoria",
     icon: ateneo2,
     iconBg: "#383E56",
-    date: "Jan 2021 - Feb 2022",
+    date: "July 2019 - Jan 2022",
     points: [
-      "Teaching planning oriented in the area of programming/design (Javascript, HTML, CSS).",
+      "Using Java, Spring Boot, Angular, Mysql to create a Fullstack website school page.",
+      "Provide support to the school page, database and networks",
+      "Teaching planning oriented in the area of programming/design (Javascript, Python).",
       "I taught Python to my students when I was worked as a teacher with some logic projects.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
@@ -144,30 +145,16 @@ const experiences = [
     company_name: "Quanta Computer",
     icon: quanta,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "March 2023 - At the moment",
     points: [
+      "Node.js, Angular, Typescript and Postgresql were used to create a full stack application with Github.",
+      "Using Python and SQL in conjunction with NodeJs, Angular to create Fulltstack software with Github.",
+      "Practice Java, Spring boot, Angular and MYSQL database with some websites with Github.",
       "Support the enterprise warehouse database system and verify the warehouse database (SQL).",
       "Creating dashboards in Javascript/HTML/CSS for network graphs in D3/Javascript.",
-      "Practice Java, Spring boot, Javascript, postman and MYSQL database with some mini projects.",
-      // "Developing and maintaining web applications using React.js and other related technologies.",
-      // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      // "Implementing responsive design and ensuring cross-browser compatibility.",
-      // "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  // {
-  //   title: "Full stack Developer",
-  //   company_name: "Meta",
-  //   icon: meta,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2023 - Present",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
+
 ];
 
 const testimonials = [
@@ -238,29 +225,29 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Wenzeltelger/Android-Studio-APP---Estadia",
   },
-  // {
-  //   name: "Trip Guide",
-  //   description:
-  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-  //   tags: [
-  //     {
-  //       name: "nextjs",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "supabase",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: tripguide,
-  //   source_code_link: "https://github.com/",
-  // },
+  {
+    name: "Software Specifications (DEMO)",
+    description:
+      "Software developed in Quanta Computer to extract the information and validate it with the one that had been registered (all this integrates connection to a database and REST API for the verification of the information)",
+    tags: [
+      {
+        name: "Node.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "REST API",
+        color: "green-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/Wenzeltelger/LectorEspecificaciones ",
+  },
 ];
 
 export { experiences, projects, services, technologies, testimonials };
