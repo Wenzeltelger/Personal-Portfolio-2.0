@@ -29,6 +29,10 @@ import ateneo2 from "./company/ateneo4.png";
 import carrent from "./old.png";
 import jobit from "./carrent2.png";
 import tripguide from "./spec.png";
+import og from "./og.png";
+import poke from "./poke.png";
+
+
 
 export {
   logo,
@@ -59,4 +63,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  og,
+  poke,
 };

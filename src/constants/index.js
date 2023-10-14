@@ -21,6 +21,8 @@ import {
   ateneo2,
   threejs,
   tripguide,
+  og,
+  poke,
   typescript,
   web,
 } from "../assets";
@@ -247,6 +249,48 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/Wenzeltelger/LectorEspecificaciones ",
+  },
+  {
+    name: "Student Website (DEMO)",
+    description:
+      "Website developed in Ateneo, this is the funcionality to organization the students",
+    tags: [
+      {
+        name: "Java",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Spring Boot",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MySQL",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: og,
+    source_code_link: "https://github.com/Wenzeltelger/Student-Management-System-SpringBoot",
+  },
+  {
+    name: "Poke API",
+    description:
+      "Website developed because I really like Pokemon, this is an pokedex, You can choose your favorite pokemon!",
+    tags: [
+      {
+        name: "Javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "API",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: poke,
+    source_code_link: "https://elaborate-biscuit-3a5a18.netlify.app/",
   },
 ];
 
